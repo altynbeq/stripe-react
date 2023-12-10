@@ -38,7 +38,9 @@ const Navbar = () => {
             <button className='link-btn' onMouseOver={displaySubmenu} >company</button>
           </li>
         </ul>
-        <button className='btn signin-btn'>
+        <button className='btn signin-btn' onClick={() => {
+          window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+        }}>
           Sign In
         </button>
       </div>

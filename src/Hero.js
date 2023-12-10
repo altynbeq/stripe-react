@@ -17,7 +17,9 @@ const Hero = () => {
             payouts, and
             manage their businesses online.
           </p>
-          <button className='btn'>Start now</button>
+          <button className='btn' onClick={() => {
+            window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+          }}>Start now</button>
         </article>
         <article className='hero-images'>
           <img src={phoneImg} className="phone-img" alt='phone'/>
